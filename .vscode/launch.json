@@ -1,0 +1,42 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program server",
+            "program": "${workspaceFolder}\\server.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program server2",
+            "program": "${workspaceFolder}\\server2.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program server3",
+            "program": "${workspaceFolder}\\server3.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program bodyParser",
+            "program": "${workspaceFolder}\\bodyParser.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program cookiesAndSession",
+            "program": "${workspaceFolder}\\serverCS.js"
+        }
+    ]
+}
